@@ -22,7 +22,7 @@ public class CardDeliveryTest {
         Configuration.holdBrowserOpen = true;
         open("http://localhost:9999");
 
-        $("[placeholder=\"Город\"]").setValue(DataGenerator.generateCity());
+        $("[placeholder=\"Город\"]").setValue(DataGenerator.generateCity("ru"));
         $("[data-test-id='date'] input").sendKeys(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.BACK_SPACE);
         $("[placeholder=\"Дата встречи\"]").setValue(planningDate);
         $("[data-test-id=\"name\"] input").setValue(DataGenerator.generateName("ru"));
