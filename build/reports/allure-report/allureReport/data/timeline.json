@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-7CIKHCE",
+    "children" : [ {
+      "name" : "10340@DESKTOP-7CIKHCE.Test worker(14)",
+      "children" : [ {
+        "name" : "Успешное планирование встречи",
+        "uid" : "1208221ce08841ff",
+        "parentUid" : "6b25620761b69edf792fecbb80ec3cf6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655346396725,
+          "stop" : 1655346409219,
+          "duration" : 12494
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Поялвение ошибки при вводе неверного формата мобильного телефона",
+        "uid" : "1ccd612cdecb3462",
+        "parentUid" : "6b25620761b69edf792fecbb80ec3cf6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655346409410,
+          "stop" : 1655346415180,
+          "duration" : 5770
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b25620761b69edf792fecbb80ec3cf6"
+    } ],
+    "uid" : "9bb53ed39ddd7a4d6fa6df3945374ba6"
+  } ]
+}

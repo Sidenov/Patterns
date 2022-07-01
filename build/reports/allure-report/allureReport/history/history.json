@@ -1,0 +1,41 @@
+{
+  "15167315e553ce836fbea5ecf1b0c1a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1208221ce08841ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655346396725,
+        "stop" : 1655346409219,
+        "duration" : 12494
+      }
+    } ]
+  },
+  "fa6d765118c4f609b3d9d635469ae8f6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ccd612cdecb3462",
+      "status" : "failed",
+      "statusDetails" : "Element not found {[data-test-id='phone'] input_sub}\r\nExpected: exact text 'Неверный формат номера мобильного телефона'\r\nScreenshot: file:/C:/HomeworkJAVA/PatternsZ1/build/reports/tests/1655346414818.0.png\r\nPage source: file:/C:/HomeworkJAVA/PatternsZ1/build/reports/tests/1655346414818.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[data-test-id='phone'] input_sub\"}",
+      "time" : {
+        "start" : 1655346409410,
+        "stop" : 1655346415180,
+        "duration" : 5770
+      }
+    } ]
+  }
+}
